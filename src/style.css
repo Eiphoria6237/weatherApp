@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+    background-color:  #a8edea ;
+}
+input {
+    background-color: transparent;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    width: 89px;
+    height: 35px;
+    position: relative;
+    left: 8px;
+    bottom: 38px;
+    border-radius: 1px;
+    transition: 150ms ease-in-out;
+}
+
+input:hover {
+    background-color:#fed6e3;
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
+    position: absolute;
+    left: 65px;
+    bottom: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+#CF {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    font-size: 10px;
+    font-family:'Montserrat', sans-serif ;
+    color:#a8edea;
+    position: relative;
+    left: 72px;
+    bottom: 64px;
+    transition: 120ms ease-in-out;
+
+}
+#CF:hover {
+    color: white;
+    background-color: #a8edea;
+    border: 1px solid white ;
+}
+
+
+.container {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.square {
+  width: 120px;
+  height: 120px;
+  border: 7px solid rgba(255, 255, 255, 0.95) ;
+  border-radius: 7px;
+  background-color: transparent;
+  display: block;
+  position: relative;
+  
+}
+
+.tempNow{ 
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 37px;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  left: 10px;
+}
+
+::placeholder {
+    padding: 3px;
+    font-size: 17px;
+    color:rgba(255, 255, 255, 0.95) ;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.Today {
+    position: absolute;
+    left: 250px;
+    top: 2px;
+    right: auto;
+    color:rgba(255, 255, 255, 0.95) ;
+    font-family: 'Montserrat', sans-serif;
+    
+    text-align: right;
+}
+
+.iconToday {
+    font-size: 35px;
+    position: relative;
+    color:rgba(255, 255, 255, 0.95) ;
+    text-align: left;
+}
+
+.tempToday {
+    position: relative;
+    bottom: 50px;
+    left: 35px;
+    font-size: 30px;
+}
+
+.todayRest {
+    padding-top: 3px;
+    
+}
+
+
+.dateToday{
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+}
+
+.humi{
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+}
+
+.wind{
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+}
+
+.weatherImg {
+    width: 400px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    left: -10px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.weatherImg img {
+   margin: -100px 0px -40px 0px;
+   width: 400px;
+   height: auto;
+}
+
+.AWeek {
+    position: absolute;
+    top: 220px;
+    left: 15px;
+    color: rgba(255, 255, 255, 0.95);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.ADay{
+    padding: 10px 20px 10px 47px;
+}
+.iconADay {
+    font-size: 20px;
+}
